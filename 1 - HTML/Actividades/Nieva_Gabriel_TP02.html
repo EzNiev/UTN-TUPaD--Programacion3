@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NANOBYTE - Planes y Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>NANOBYTE</h1>
+        <nav>
+            <a href="#planes">Planes</a> |
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="planes">
+            <h2>Nuestros planes</h2>
+            <!-- Actividad 2: tabla -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Plan</th>
+                        <th scope="col">Precio mensual</th>
+                        <th scope="col">Soporte</th>
+                        <th scope="col">Tiempo de respuesta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Básico</th>
+                        <td>$10.000</td>
+                        <td>Email y Whatsapp</td>
+                        <td>48 hs</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Estándar</th>
+                        <td>$20.000</td>
+                        <td>Email, WhatsApp y Telefónico</td>
+                        <td>24 hs</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Premium</th>
+                        <td>$40.000</td>
+                        <td>Email, WhatsApp, Telefónico y Soporte Remoto en Vivo</td>
+                        <td>Menos de 2 hs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <!-- Actividad 1: formulario (solo estructural) -->
+            <form action="#" method="get">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Perez">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ej: juanp@gmail.com">
+                </p>
+                <p>
+                    <label for="motivo">Motivo de contacto:</label>
+                    <select id="motivo" name="motivo">
+                        <option value="soporte">Soporte técnico</option>
+                        <option value="presupuesto">Pedido de presupuesto</option>
+                        <option value="reclamo">Reclamo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </p>
+
+                <fieldset>
+                    <legend>Tipo de consulta</legend>
+                    <input type="radio" id="urgente" name="urgencia" value="urgente">
+                    <label for="urgente">Urgente</label><br>
+                    <input type="radio" id="normal" name="urgencia" value="normal">
+                    <label for="normal">Normal</label><br>
+                    <input type="radio" id="informativa" name="urgencia" value="informativa">
+                    <label for="informativa">Solo información</label>
+                </fieldset>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Si es necesario detalle más su consulta aquí..."></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="terminos" name="terminos">
+                    <label for="terminos">Acepto los términos y condiciones</label>
+                </p>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 NANOBYTE - Jesús María, Córdoba</p>
+    </footer>
+</body>
+</html>
