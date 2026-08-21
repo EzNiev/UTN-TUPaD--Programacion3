@@ -1,0 +1,19 @@
+/* Actividad 1: selector de tipo + sintaxis básica */
+body {
+    /* TODO: font-family, margin, padding */
+}
+
+/* Actividad 2: selector de id */
+#site-header {
+    /* TODO: background-color, color, padding */
+}
+
+/* Actividad 2: selector de clase */
+.card {
+    /* TODO: background-color, padding, border-radius */
+}
+
+/* Actividad 2: selector descendiente */
+.card p {
+    /* TODO: color */
+}
