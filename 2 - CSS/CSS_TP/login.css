@@ -1,0 +1,65 @@
+:root {
+    --color-primario: #ff6347;
+    --color-fondo: #f0f0f0;
+    --color-texto: #333;
+    --color-blanco: #fff;
+    --color-borde: #ddd;
+    --color-focus: #ff4500;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background-color: var(--color-blanco);
+    /* TODO: modelo de caja - width, padding, border-radius, box-shadow */
+    width: 50rem;
+    height: 20rem;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: #ff4500;
+}
+
+.logo {
+    color: var(--color-primario);
+    /* TODO: text-transform: uppercase */
+}
+
+.subtitle {
+    color: var(--color-texto);
+    /* TODO: text-align, margin */
+}
+
+label {
+    color: var(--color-texto);
+    /* TODO: display, margin, font-weight */
+}
+
+input {
+    border: 1px solid var(--color-borde);
+    /* TODO: width: 100%, padding, border-radius, margin */
+}
+
+input:focus {
+    /* TODO: cambiar border-color a var(--color-focus) */
+}
+
+button {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    /* TODO: border, padding, border-radius, width, cursor */
+}
+
+button:hover {
+    /* TODO: cambiar background-color (ej. var(--color-focus)) */
+}
+
+.register-link a {
+    color: var(--color-primario);
+}
