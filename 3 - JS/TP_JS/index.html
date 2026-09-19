@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Food Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#pedidos">Mis Pedidos</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+                <li><a href="admin.html">Panel Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <h2>Categorías</h2>
+        <ul id="lista-categorias">
+            <!-- Las categorías se generan dinámicamente desde js/main.js -->
+        </ul>
+    </aside>
+
+    <main>
+        <form action="#" role="search">
+            <label for="buscar">Buscar productos:</label>
+            <input type="search" id="buscar" name="q" placeholder="Ej: Pizza Napolitana">
+            <button type="submit">Buscar</button>
+        </form>
+        <h2>Productos destacados</h2>
+
+        <section id="contenedor-productos">
+            <!-- Los productos se generan dinámicamente desde js/main.js -->
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Food Store. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:info@foodstore.com">info@foodstore.com</a></p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
