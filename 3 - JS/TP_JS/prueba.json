@@ -1,0 +1,82 @@
+{
+  "_id": ObjectId("672a1f3b8c9d4e21a5f60731"),
+  "titulo": "El reto definitivo de los hombres",
+  "descripcion": "Grabate lanzando una piedra al agua, suma puntos el tamaño de la piedra, sonido, paisaje, altura, potencia, trucos, epicidad. Sean creativos!",
+  "hashtag_principal": "#LanzarPiedras",
+  "categorias": [
+    "Hombre",
+    "Humor",
+    "Piedras"
+  ],
+  "nivel_dificultad": "Medio",
+  "creador": {
+    "_id": ObjectId("672a1f3c9d0e5f32b6a71842"),
+    "nickname": "@ezekuku",
+    "nivel_cuenta": "Influencer",
+    "foto_perfil": "https://cdn.trendpulse.com/perfiles/ezekukufotocarnet.jpg"
+  },
+  "tags": [
+    "hombre",
+    "piedra",
+    "gracioso",
+    "challenge",
+    "porquevivenmenos"
+  ],
+  "comentarios_destacados": [
+    {
+      "_id": ObjectId("672a1f4d0e1f6a43c7b82953"),
+      "texto": "El hombre es un ser realmente simple. Atte: Un hombre.",
+      "fecha": "2026-09-10",
+      "likes": 4820,
+      "usuario": {
+        "nickname": "@matute_bon",
+        "foto_perfil": "https://cdn.trendpulse.com/perfiles/matute_bon.jpg"
+      }
+    },
+    {
+      "_id": ObjectId("672a1f4e1f2a7b54d8c93a64"),
+      "texto": "Mi novia no entiende porque me gusta esto xD",
+      "fecha": "2026-09-10",
+      "likes": 3910,
+      "usuario": {
+        "nickname": "@diegogamer",
+        "foto_perfil": "https://cdn.trendpulse.com/perfiles/diegogamer.jpg"
+      }
+    },
+    {
+      "_id": ObjectId("672a1f4f2a3b8c65e9d0ab75"),
+      "texto": "Mis amigos se fueron hasta el dique san roque a tirar una piedrota y no me avisaron! A las chicas también nos gustan estas cosas loco",
+      "fecha": "2026-09-11",
+      "likes": 2750,
+      "usuario": {
+        "nickname": "@sole.tech",
+        "foto_perfil": "https://cdn.trendpulse.com/perfiles/sole_tech.jpg"
+      }
+    },
+    {
+      "_id": ObjectId("672a1f503b4c9d76fa0e1c86"),
+      "texto": "Alguien tiene que hacer una compilación de todos los intentos fallidos",
+      "fecha": "2026-09-11",
+      "likes": 2103,
+      "usuario": {
+        "nickname": "@martin_dv",
+        "foto_perfil": "https://cdn.trendpulse.com/perfiles/martin_dv.jpg"
+      }
+    },
+    {
+      "_id": ObjectId("672a1f514c5da087fb1e2d97"),
+      "texto": "10/10 el nivel de dificultad, mi piedra ni llegó al agua, voy a probar usando un bobcat",
+      "fecha": "2026-09-12",
+      "likes": 1876,
+      "usuario": {
+        "nickname": "@carlitosxeneixe",
+        "foto_perfil": "https://cdn.trendpulse.com/perfiles/carlitosxeneixe.jpg"
+      }
+    }
+  ],
+  "comentarios_referencia": [
+    ObjectId("672a1f525d6eb198fc2f3ea8"),
+    ObjectId("672a1f536e7fc2a90fd304b9"),
+    ObjectId("672a1f5480d3a1baffd415c0")
+  ]
+}
